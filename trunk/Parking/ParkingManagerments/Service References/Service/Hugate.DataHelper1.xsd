@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/Hugate.DataHelper" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Hugate.DataHelper" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="ArrayOfpk_In_Out">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="pk_In_Out" nillable="true" type="tns:pk_In_Out" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfpk_In_Out" nillable="true" type="tns:ArrayOfpk_In_Out" />
+  <xs:complexType name="pk_In_Out">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ID" type="ser:guid" />
+      <xs:element minOccurs="0" name="IsOut" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Note" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Number" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RFID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TimeIn" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="TimeOut" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="VehicleTypeID" nillable="true" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="pk_In_Out" nillable="true" type="tns:pk_In_Out" />
+  <xs:complexType name="ArrayOfpk_Camera">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="pk_Camera" nillable="true" type="tns:pk_Camera" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfpk_Camera" nillable="true" type="tns:ArrayOfpk_Camera" />
+  <xs:complexType name="pk_Camera">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CameraId" type="xs:int" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="areaId" type="xs:int" />
+      <xs:element minOccurs="0" name="desc" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="interval" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="isIn" type="xs:boolean" />
+      <xs:element minOccurs="0" name="login" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="position" type="xs:boolean" />
+      <xs:element minOccurs="0" name="provider" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="quality" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="size" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="source" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="type" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="pk_Camera" nillable="true" type="tns:pk_Camera" />
+  <xs:complexType name="ArrayOfpk_Price">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="pk_Price" nillable="true" type="tns:pk_Price" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfpk_Price" nillable="true" type="tns:ArrayOfpk_Price" />
+  <xs:complexType name="pk_Price">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ID" type="xs:int" />
+      <xs:element minOccurs="0" name="Note" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Price" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="VehicleType" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="pk_Price" nillable="true" type="tns:pk_Price" />
+  <xs:complexType name="ArrayOfvw_Pk_All">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="vw_Pk_All" nillable="true" type="tns:vw_Pk_All" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfvw_Pk_All" nillable="true" type="tns:ArrayOfvw_Pk_All" />
+  <xs:complexType name="vw_Pk_All">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ID" type="ser:guid" />
+      <xs:element minOccurs="0" name="IsOut" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Note" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Number" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Price" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Quantity" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="RFID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TimeIn" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="TimeOut" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="TotalPrice" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="VehicleType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VehicleTypeID" nillable="true" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="vw_Pk_All" nillable="true" type="tns:vw_Pk_All" />
+</xs:schema>

@@ -1,0 +1,44 @@
+C:\Users\Administrator\Desktop\New folder\Hugate.Camera\bin\Debug\Hugate.Camera.dll
+C:\Users\Administrator\Desktop\New folder\Hugate.Camera\bin\Debug\Hugate.Camera.pdb
+C:\Users\Administrator\Desktop\New folder\Hugate.Camera\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\New folder\Hugate.Camera\obj\Debug\Hugate.Camera.CamerasTreeView.resources
+C:\Users\Administrator\Desktop\New folder\Hugate.Camera\obj\Debug\Hugate.Camera.CameraWindow.resources
+C:\Users\Administrator\Desktop\New folder\Hugate.Camera\obj\Debug\Hugate.Camera.ViewGrid.resources
+C:\Users\Administrator\Desktop\New folder\Hugate.Camera\obj\Debug\Hugate.Camera.ViewStructure.resources
+C:\Users\Administrator\Desktop\New folder\Hugate.Camera\obj\Debug\Hugate.Camera.JPEGSourcePage.resources
+C:\Users\Administrator\Desktop\New folder\Hugate.Camera\obj\Debug\Hugate.Camera.ComproCameraSetupPage.resources
+C:\Users\Administrator\Desktop\New folder\Hugate.Camera\obj\Debug\Hugate.Camera.DLinkCameraSetupPage.resources
+C:\Users\Administrator\Desktop\New folder\Hugate.Camera\obj\Debug\Hugate.Camera.PixordCameraSetupPage.resources
+C:\Users\Administrator\Desktop\New folder\Hugate.Camera\obj\Debug\Hugate.Camera.StardotExpress6SetupPage.resources
+C:\Users\Administrator\Desktop\New folder\Hugate.Camera\obj\Debug\Hugate.Camera.StardotNetCamSetupPage.resources
+C:\Users\Administrator\Desktop\New folder\Hugate.Camera\obj\Debug\Hugate.Camera.VideoStreamSetupPage.resources
+C:\Users\Administrator\Desktop\New folder\Hugate.Camera\obj\Debug\Hugate.Camera.VivotekCameraSetupPage.resources
+C:\Users\Administrator\Desktop\New folder\Hugate.Camera\obj\Debug\Hugate.Camera.MJPEGSourcePage.resources
+C:\Users\Administrator\Desktop\New folder\Hugate.Camera\obj\Debug\Hugate.Camera.PanasonicCameraSetupPage.resources
+C:\Users\Administrator\Desktop\New folder\Hugate.Camera\obj\Debug\Hugate.Camera.Multiplexer.resources
+C:\Users\Administrator\Desktop\New folder\Hugate.Camera\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\New folder\Hugate.Camera\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\New folder\Hugate.Camera\obj\Debug\Hugate.Camera.dll
+C:\Users\Administrator\Desktop\New folder\Hugate.Camera\obj\Debug\Hugate.Camera.pdb
+C:\Users\Administrator\Desktop\Parking\Hugate.Camera\bin\Debug\Hugate.Camera.dll
+C:\Users\Administrator\Desktop\Parking\Hugate.Camera\bin\Debug\Hugate.Camera.pdb
+C:\Users\Administrator\Desktop\Parking\Hugate.Camera\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Parking\Hugate.Camera\obj\Debug\Hugate.Camera.CamerasTreeView.resources
+C:\Users\Administrator\Desktop\Parking\Hugate.Camera\obj\Debug\Hugate.Camera.CameraWindow.resources
+C:\Users\Administrator\Desktop\Parking\Hugate.Camera\obj\Debug\Hugate.Camera.ViewGrid.resources
+C:\Users\Administrator\Desktop\Parking\Hugate.Camera\obj\Debug\Hugate.Camera.ViewStructure.resources
+C:\Users\Administrator\Desktop\Parking\Hugate.Camera\obj\Debug\Hugate.Camera.JPEGSourcePage.resources
+C:\Users\Administrator\Desktop\Parking\Hugate.Camera\obj\Debug\Hugate.Camera.ComproCameraSetupPage.resources
+C:\Users\Administrator\Desktop\Parking\Hugate.Camera\obj\Debug\Hugate.Camera.DLinkCameraSetupPage.resources
+C:\Users\Administrator\Desktop\Parking\Hugate.Camera\obj\Debug\Hugate.Camera.PixordCameraSetupPage.resources
+C:\Users\Administrator\Desktop\Parking\Hugate.Camera\obj\Debug\Hugate.Camera.StardotExpress6SetupPage.resources
+C:\Users\Administrator\Desktop\Parking\Hugate.Camera\obj\Debug\Hugate.Camera.StardotNetCamSetupPage.resources
+C:\Users\Administrator\Desktop\Parking\Hugate.Camera\obj\Debug\Hugate.Camera.VideoStreamSetupPage.resources
+C:\Users\Administrator\Desktop\Parking\Hugate.Camera\obj\Debug\Hugate.Camera.VivotekCameraSetupPage.resources
+C:\Users\Administrator\Desktop\Parking\Hugate.Camera\obj\Debug\Hugate.Camera.MJPEGSourcePage.resources
+C:\Users\Administrator\Desktop\Parking\Hugate.Camera\obj\Debug\Hugate.Camera.PanasonicCameraSetupPage.resources
+C:\Users\Administrator\Desktop\Parking\Hugate.Camera\obj\Debug\Hugate.Camera.Multiplexer.resources
+C:\Users\Administrator\Desktop\Parking\Hugate.Camera\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Parking\Hugate.Camera\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Parking\Hugate.Camera\obj\Debug\Hugate.Camera.dll
+C:\Users\Administrator\Desktop\Parking\Hugate.Camera\obj\Debug\Hugate.Camera.pdb
