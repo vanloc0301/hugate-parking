@@ -39,8 +39,13 @@
             this.xrTableCell4 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell5 = new DevExpress.XtraReports.UI.XRTableCell();
             this.TopMargin = new DevExpress.XtraReports.UI.TopMarginBand();
+            this.xlbToTime = new DevExpress.XtraReports.UI.XRLabel();
+            this.xlbToDate = new DevExpress.XtraReports.UI.XRLabel();
+            this.xlbFromTime = new DevExpress.XtraReports.UI.XRLabel();
+            this.xlbFromDate = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel1 = new DevExpress.XtraReports.UI.XRLabel();
             this.BottomMargin = new DevExpress.XtraReports.UI.BottomMarginBand();
+            this.xrPageInfo1 = new DevExpress.XtraReports.UI.XRPageInfo();
             this.ReportHeader = new DevExpress.XtraReports.UI.ReportHeaderBand();
             this.xrTable2 = new DevExpress.XtraReports.UI.XRTable();
             this.xrTableRow2 = new DevExpress.XtraReports.UI.XRTableRow();
@@ -51,11 +56,7 @@
             this.xrTableCell8 = new DevExpress.XtraReports.UI.XRTableCell();
             this.ReportFooter = new DevExpress.XtraReports.UI.ReportFooterBand();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.xrPageInfo1 = new DevExpress.XtraReports.UI.XRPageInfo();
-            this.xlbFromTime = new DevExpress.XtraReports.UI.XRLabel();
-            this.xlbFromDate = new DevExpress.XtraReports.UI.XRLabel();
-            this.xlbToTime = new DevExpress.XtraReports.UI.XRLabel();
-            this.xlbToDate = new DevExpress.XtraReports.UI.XRLabel();
+            this.PageHeader = new DevExpress.XtraReports.UI.PageHeaderBand();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
@@ -157,21 +158,63 @@
             // 
             // TopMargin
             // 
-            this.TopMargin.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.xlbToTime,
-            this.xlbToDate,
-            this.xlbFromTime,
-            this.xlbFromDate,
-            this.xrLabel1});
-            this.TopMargin.HeightF = 119.7917F;
+            this.TopMargin.HeightF = 48.95837F;
             this.TopMargin.Name = "TopMargin";
             this.TopMargin.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
             this.TopMargin.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
             // 
+            // xlbToTime
+            // 
+            this.xlbToTime.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Italic);
+            this.xlbToTime.LocationFloat = new DevExpress.Utils.PointFloat(325F, 50F);
+            this.xlbToTime.Name = "xlbToTime";
+            this.xlbToTime.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xlbToTime.SizeF = new System.Drawing.SizeF(100F, 24.04167F);
+            this.xlbToTime.StylePriority.UseFont = false;
+            this.xlbToTime.StylePriority.UseTextAlignment = false;
+            this.xlbToTime.Text = "Đến :";
+            this.xlbToTime.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // xlbToDate
+            // 
+            this.xlbToDate.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Italic);
+            this.xlbToDate.LocationFloat = new DevExpress.Utils.PointFloat(425F, 50F);
+            this.xlbToDate.Name = "xlbToDate";
+            this.xlbToDate.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xlbToDate.SizeF = new System.Drawing.SizeF(125F, 24.04167F);
+            this.xlbToDate.StylePriority.UseFont = false;
+            this.xlbToDate.StylePriority.UseTextAlignment = false;
+            this.xlbToDate.Text = "ngày :";
+            this.xlbToDate.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // xlbFromTime
+            // 
+            this.xlbFromTime.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Italic);
+            this.xlbFromTime.LocationFloat = new DevExpress.Utils.PointFloat(100F, 50F);
+            this.xlbFromTime.Name = "xlbFromTime";
+            this.xlbFromTime.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xlbFromTime.SizeF = new System.Drawing.SizeF(100F, 24.04169F);
+            this.xlbFromTime.StylePriority.UseFont = false;
+            this.xlbFromTime.StylePriority.UseTextAlignment = false;
+            this.xlbFromTime.Text = "Từ :";
+            this.xlbFromTime.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // xlbFromDate
+            // 
+            this.xlbFromDate.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Italic);
+            this.xlbFromDate.LocationFloat = new DevExpress.Utils.PointFloat(200F, 50F);
+            this.xlbFromDate.Name = "xlbFromDate";
+            this.xlbFromDate.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xlbFromDate.SizeF = new System.Drawing.SizeF(124.9999F, 24.04169F);
+            this.xlbFromDate.StylePriority.UseFont = false;
+            this.xlbFromDate.StylePriority.UseTextAlignment = false;
+            this.xlbFromDate.Text = "ngày :";
+            this.xlbFromDate.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
             // xrLabel1
             // 
             this.xrLabel1.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.xrLabel1.LocationFloat = new DevExpress.Utils.PointFloat(125F, 25F);
+            this.xrLabel1.LocationFloat = new DevExpress.Utils.PointFloat(125F, 12.5F);
             this.xrLabel1.Name = "xrLabel1";
             this.xrLabel1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel1.SizeF = new System.Drawing.SizeF(394.7917F, 26.125F);
@@ -184,16 +227,29 @@
             // 
             this.BottomMargin.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrPageInfo1});
-            this.BottomMargin.HeightF = 67.70834F;
+            this.BottomMargin.HeightF = 51.04167F;
             this.BottomMargin.Name = "BottomMargin";
             this.BottomMargin.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
             this.BottomMargin.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
             // 
+            // xrPageInfo1
+            // 
+            this.xrPageInfo1.LocationFloat = new DevExpress.Utils.PointFloat(275F, 12.5F);
+            this.xrPageInfo1.Name = "xrPageInfo1";
+            this.xrPageInfo1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrPageInfo1.SizeF = new System.Drawing.SizeF(100F, 19.24998F);
+            this.xrPageInfo1.StylePriority.UseTextAlignment = false;
+            this.xrPageInfo1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            // 
             // ReportHeader
             // 
             this.ReportHeader.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.xrTable2});
-            this.ReportHeader.HeightF = 25F;
+            this.xrLabel1,
+            this.xlbFromDate,
+            this.xlbFromTime,
+            this.xlbToDate,
+            this.xlbToTime});
+            this.ReportHeader.HeightF = 95.83334F;
             this.ReportHeader.Name = "ReportHeader";
             // 
             // xrTable2
@@ -291,62 +347,12 @@
             // 
             this.bindingSource1.DataSource = typeof(Hugate.DataHelper.pk_In_Out);
             // 
-            // xrPageInfo1
+            // PageHeader
             // 
-            this.xrPageInfo1.LocationFloat = new DevExpress.Utils.PointFloat(275F, 25F);
-            this.xrPageInfo1.Name = "xrPageInfo1";
-            this.xrPageInfo1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrPageInfo1.SizeF = new System.Drawing.SizeF(100F, 19.24998F);
-            this.xrPageInfo1.StylePriority.UseTextAlignment = false;
-            this.xrPageInfo1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
-            // 
-            // xlbFromTime
-            // 
-            this.xlbFromTime.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Italic);
-            this.xlbFromTime.LocationFloat = new DevExpress.Utils.PointFloat(100F, 62.5F);
-            this.xlbFromTime.Name = "xlbFromTime";
-            this.xlbFromTime.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xlbFromTime.SizeF = new System.Drawing.SizeF(100F, 24.04169F);
-            this.xlbFromTime.StylePriority.UseFont = false;
-            this.xlbFromTime.StylePriority.UseTextAlignment = false;
-            this.xlbFromTime.Text = "Từ :";
-            this.xlbFromTime.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
-            // 
-            // xlbFromDate
-            // 
-            this.xlbFromDate.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Italic);
-            this.xlbFromDate.LocationFloat = new DevExpress.Utils.PointFloat(200F, 62.5F);
-            this.xlbFromDate.Name = "xlbFromDate";
-            this.xlbFromDate.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xlbFromDate.SizeF = new System.Drawing.SizeF(124.9999F, 24.04169F);
-            this.xlbFromDate.StylePriority.UseFont = false;
-            this.xlbFromDate.StylePriority.UseTextAlignment = false;
-            this.xlbFromDate.Text = "ngày :";
-            this.xlbFromDate.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
-            // 
-            // xlbToTime
-            // 
-            this.xlbToTime.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Italic);
-            this.xlbToTime.LocationFloat = new DevExpress.Utils.PointFloat(325F, 62.5F);
-            this.xlbToTime.Name = "xlbToTime";
-            this.xlbToTime.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xlbToTime.SizeF = new System.Drawing.SizeF(100F, 24.04167F);
-            this.xlbToTime.StylePriority.UseFont = false;
-            this.xlbToTime.StylePriority.UseTextAlignment = false;
-            this.xlbToTime.Text = "Đến :";
-            this.xlbToTime.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
-            // 
-            // xlbToDate
-            // 
-            this.xlbToDate.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Italic);
-            this.xlbToDate.LocationFloat = new DevExpress.Utils.PointFloat(425F, 62.5F);
-            this.xlbToDate.Name = "xlbToDate";
-            this.xlbToDate.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xlbToDate.SizeF = new System.Drawing.SizeF(125F, 24.04167F);
-            this.xlbToDate.StylePriority.UseFont = false;
-            this.xlbToDate.StylePriority.UseTextAlignment = false;
-            this.xlbToDate.Text = "ngày :";
-            this.xlbToDate.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.PageHeader.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrTable2});
+            this.PageHeader.HeightF = 25F;
+            this.PageHeader.Name = "PageHeader";
             // 
             // rptIn
             // 
@@ -355,9 +361,10 @@
             this.TopMargin,
             this.BottomMargin,
             this.ReportHeader,
-            this.ReportFooter});
+            this.ReportFooter,
+            this.PageHeader});
             this.DataSource = this.bindingSource1;
-            this.Margins = new System.Drawing.Printing.Margins(100, 100, 120, 68);
+            this.Margins = new System.Drawing.Printing.Margins(100, 100, 49, 51);
             this.Version = "10.2";
             ((System.ComponentModel.ISupportInitialize)(this.xrTable1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).EndInit();
@@ -394,5 +401,6 @@
         public DevExpress.XtraReports.UI.XRLabel xlbToDate;
         public DevExpress.XtraReports.UI.XRLabel xlbFromTime;
         public DevExpress.XtraReports.UI.XRLabel xlbFromDate;
+        private DevExpress.XtraReports.UI.PageHeaderBand PageHeader;
     }
 }
