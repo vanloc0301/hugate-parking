@@ -6,7 +6,6 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
-//using Hugate.Parking.ServiceServer;
 using Hugate.DataHelper;
 using Hugate.ComportConnections;
 using System.IO;

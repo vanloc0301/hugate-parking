@@ -26,8 +26,8 @@ namespace Hugate.DataHelper.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(local);Initial Catalog=Hugate-Parking;Persist Security Info=True;Use" +
-            "r ID=sa;Password=123456")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(local);Initial Catalog=Parking;Persist Security Info=True;User ID=sa" +
+            "")]
         public string Hugate_ParkingConnectionString {
             get {
                 return ((string)(this["Hugate_ParkingConnectionString"]));

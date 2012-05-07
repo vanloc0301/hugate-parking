@@ -17,7 +17,7 @@ namespace Hugate.Parking
         {
             try
             {
-                //Application.EnableVisualStyles();
+                Application.EnableVisualStyles();
                 //Application.SetCompatibleTextRenderingDefault(false);
 
                 if (!File.Exists(Application.StartupPath + @"\In.ini"))
