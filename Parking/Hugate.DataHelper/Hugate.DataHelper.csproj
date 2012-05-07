@@ -42,9 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbsObject.cs" />
     <Compile Include="Bitmap.cs" />
-    <Compile Include="DataSource.cs" />
+    <Compile Include="Data.cs">
+      <DependentUpon>Data.dbml</DependentUpon>
+    </Compile>
     <Compile Include="Data.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

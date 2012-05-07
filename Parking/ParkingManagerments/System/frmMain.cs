@@ -21,8 +21,6 @@ namespace Hugate.Parking
         private void frmMain_Load(object sender, EventArgs e)
         {
             DevExpress.UserSkins.BonusSkins.Register();
-            //Declare.ServiceMain = new ServiceLocal.ServiceClient();
-            //Declare.ServiceMain.Open();
         }
 
         private bool isActived(XtraForm frm)
