@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataClasses1">
+  <DataContextMoniker Name="/PKDataContext" />
+  <nestedChildShapes>
+    <classShape Id="5d731a04-3d12-4f0c-a27f-ccf6fd5cc97f" absoluteBounds="5.125, 0.875, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/PKDataContext/pk_Camera" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4cbd324f-75c4-4858-ae53-f8630d226b5a" absoluteBounds="5.14, 1.335, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0b9d87d0-db36-4444-b7bb-d477a039d2f9" absoluteBounds="7.625, 1, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/PKDataContext/pk_Price" />
+      <nestedChildShapes>
+        <elementListCompartment Id="35cdca28-955c-45bd-b2fe-ae4bf4a15a2e" absoluteBounds="7.64, 1.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4d57a4f1-ae9a-4833-b9ab-078972fc5dea" absoluteBounds="2.375, 0.875, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/PKDataContext/pk_In_Out" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c4de772e-454a-4991-99bd-03c28357cf08" absoluteBounds="2.39, 1.335, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="05db0978-192c-4b25-b4de-fb96e90d94b9" absoluteBounds="2.25, 3.5, 2, 3.1170068359375">
+      <DataClassMoniker Name="/PKDataContext/vw_Pk_All" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7e0c5393-2536-44d6-8f37-62c1c4411bee" absoluteBounds="2.265, 3.96, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

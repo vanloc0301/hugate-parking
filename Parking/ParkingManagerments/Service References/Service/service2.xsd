@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/Hugate.DataHelper" />
+  <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:element name="GetAll">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Hugate.DataHelper" minOccurs="0" name="GetAllResult" nillable="true" type="q1:ArrayOfpk_In_Out" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getAllPKIn">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getAllPKInResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Hugate.DataHelper" minOccurs="0" name="getAllPKInResult" nillable="true" type="q2:ArrayOfpk_In_Out" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getAllPKOut">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getAllPKOutResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Hugate.DataHelper" minOccurs="0" name="getAllPKOutResult" nillable="true" type="q3:ArrayOfpk_In_Out" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="hasObject">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RFID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="hasObjectResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="hasObjectResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getSinglePKIn">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RFID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getSinglePKInResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/Hugate.DataHelper" minOccurs="0" name="getSinglePKInResult" nillable="true" type="q4:pk_In_Out" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getSinglePKOut">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RFID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getSinglePKOutResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/Hugate.DataHelper" minOccurs="0" name="getSinglePKOutResult" nillable="true" type="q5:pk_In_Out" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllCameras">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllCamerasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/Hugate.DataHelper" minOccurs="0" name="GetAllCamerasResult" nillable="true" type="q6:ArrayOfpk_Camera" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllPrice">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllPriceResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/Hugate.DataHelper" minOccurs="0" name="GetAllPriceResult" nillable="true" type="q7:ArrayOfpk_Price" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IEPrice">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IEPriceResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/Hugate.DataHelper" minOccurs="0" name="IEPriceResult" nillable="true" type="q8:ArrayOfpk_Price" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SavePrice">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="type" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="price" type="xs:decimal" />
+        <xs:element minOccurs="0" name="note" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SavePriceResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EditPrice">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ID" type="xs:int" />
+        <xs:element minOccurs="0" name="type" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="price" type="xs:decimal" />
+        <xs:element minOccurs="0" name="note" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EditPriceResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeletePrice">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeletePriceResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IECamera">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IECameraResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/Hugate.DataHelper" minOccurs="0" name="IECameraResult" nillable="true" type="q9:ArrayOfpk_Camera" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Search">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RFID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Number" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fromDate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="toDate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="isOut" type="xs:boolean" />
+        <xs:element minOccurs="0" name="isRFID" type="xs:boolean" />
+        <xs:element minOccurs="0" name="isNumber" type="xs:boolean" />
+        <xs:element minOccurs="0" name="isDate" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/Hugate.DataHelper" minOccurs="0" name="SearchResult" nillable="true" type="q10:ArrayOfpk_In_Out" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveCamera">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="provider" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="desc" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="source" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="login" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="size" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="type" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="quality" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="interval" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="isIn" type="xs:boolean" />
+        <xs:element minOccurs="0" name="position" type="xs:boolean" />
+        <xs:element minOccurs="0" name="areadId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveCameraResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EditCamera">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="cameraId" type="xs:int" />
+        <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="provider" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="desc" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="source" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="login" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="size" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="type" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="quality" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="interval" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="isIn" type="xs:boolean" />
+        <xs:element minOccurs="0" name="position" type="xs:boolean" />
+        <xs:element minOccurs="0" name="areadId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EditCameraResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteCamera">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="cameraId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteCameraResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SavePKIn">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RFID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Number" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Time" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="VehicleTypeID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SavePKInResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.microsoft.com/2003/10/Serialization/" minOccurs="0" name="SavePKInResult" type="q11:guid" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SavePKOut">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.microsoft.com/2003/10/Serialization/" minOccurs="0" name="ID" type="q12:guid" />
+        <xs:element minOccurs="0" name="TimeOut" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SavePKOutResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getImage">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.microsoft.com/2003/10/Serialization/" minOccurs="0" name="ID" type="q13:guid" />
+        <xs:element minOccurs="0" name="arrImg" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="isIn" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getImageResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="arrImg" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="setImage">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.microsoft.com/2003/10/Serialization/" minOccurs="0" name="ID" type="q14:guid" />
+        <xs:element minOccurs="0" name="arrImg" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="isIn" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="setImageResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TotalAmount">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="fromDate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="toDate" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TotalAmountResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/Hugate.DataHelper" minOccurs="0" name="TotalAmountResult" nillable="true" type="q15:ArrayOfvw_Pk_All" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
