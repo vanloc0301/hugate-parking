@@ -33,6 +33,7 @@
             this.barManagerMain = new DevExpress.XtraBars.BarManager(this.components);
             this.TopBar = new DevExpress.XtraBars.Bar();
             this.bbtnSystem = new DevExpress.XtraBars.BarLargeButtonItem();
+            this.bbtnDatabaseOptions = new DevExpress.XtraBars.BarLargeButtonItem();
             this.bbtnIn = new DevExpress.XtraBars.BarLargeButtonItem();
             this.bbtnOut = new DevExpress.XtraBars.BarLargeButtonItem();
             this.bbtnPublic = new DevExpress.XtraBars.BarLargeButtonItem();
@@ -48,7 +49,8 @@
             this.barDockControlRight = new DevExpress.XtraBars.BarDockControl();
             this.MdiManager = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(this.components);
             this.defaultLookAndFeelMain = new DevExpress.LookAndFeel.DefaultLookAndFeel(this.components);
-            this.bbtnDatabaseOptions = new DevExpress.XtraBars.BarLargeButtonItem();
+            this.bar1 = new DevExpress.XtraBars.Bar();
+            this.barStaticItem = new DevExpress.XtraBars.BarStaticItem();
             ((System.ComponentModel.ISupportInitialize)(this.barManagerMain)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MdiManager)).BeginInit();
             this.SuspendLayout();
@@ -56,7 +58,8 @@
             // barManagerMain
             // 
             this.barManagerMain.Bars.AddRange(new DevExpress.XtraBars.Bar[] {
-            this.TopBar});
+            this.TopBar,
+            this.bar1});
             this.barManagerMain.Categories.AddRange(new DevExpress.XtraBars.BarManagerCategory[] {
             new DevExpress.XtraBars.BarManagerCategory("TopMenuBar", new System.Guid("0551a6f2-ea3e-4c96-8da2-0fcaa762ba52"))});
             this.barManagerMain.DockControls.Add(this.barDockControlTop);
@@ -75,8 +78,10 @@
             this.bbtnSearch,
             this.bbtnVehiclesType,
             this.btbnDeleteCard,
-            this.bbtnDatabaseOptions});
-            this.barManagerMain.MaxItemId = 17;
+            this.bbtnDatabaseOptions,
+            this.barStaticItem});
+            this.barManagerMain.MaxItemId = 18;
+            this.barManagerMain.StatusBar = this.bar1;
             // 
             // TopBar
             // 
@@ -109,6 +114,14 @@
             this.bbtnSystem.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("bbtnSystem.LargeGlyph")));
             this.bbtnSystem.Name = "bbtnSystem";
             this.bbtnSystem.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.bbtnSystem_ItemClick);
+            // 
+            // bbtnDatabaseOptions
+            // 
+            this.bbtnDatabaseOptions.Caption = "Dữ liệu";
+            this.bbtnDatabaseOptions.Id = 16;
+            this.bbtnDatabaseOptions.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("bbtnDatabaseOptions.LargeGlyph")));
+            this.bbtnDatabaseOptions.Name = "bbtnDatabaseOptions";
+            this.bbtnDatabaseOptions.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.bbtnDatabaseOptions_ItemClick);
             // 
             // bbtnIn
             // 
@@ -196,22 +209,22 @@
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 742);
-            this.barDockControlBottom.Size = new System.Drawing.Size(1008, 0);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 713);
+            this.barDockControlBottom.Size = new System.Drawing.Size(1008, 29);
             // 
             // barDockControlLeft
             // 
             this.barDockControlLeft.CausesValidation = false;
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
             this.barDockControlLeft.Location = new System.Drawing.Point(0, 61);
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 681);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 652);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
             this.barDockControlRight.Location = new System.Drawing.Point(1008, 61);
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 681);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 652);
             // 
             // MdiManager
             // 
@@ -241,13 +254,26 @@
             // 
             this.defaultLookAndFeelMain.LookAndFeel.SkinName = "Blue";
             // 
-            // bbtnDatabaseOptions
+            // bar1
             // 
-            this.bbtnDatabaseOptions.Caption = "Dữ liệu";
-            this.bbtnDatabaseOptions.Id = 16;
-            this.bbtnDatabaseOptions.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("bbtnDatabaseOptions.LargeGlyph")));
-            this.bbtnDatabaseOptions.Name = "bbtnDatabaseOptions";
-            this.bbtnDatabaseOptions.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.bbtnDatabaseOptions_ItemClick);
+            this.bar1.BarName = "Custom 3";
+            this.bar1.CanDockStyle = DevExpress.XtraBars.BarCanDockStyle.Bottom;
+            this.bar1.DockCol = 0;
+            this.bar1.DockRow = 0;
+            this.bar1.DockStyle = DevExpress.XtraBars.BarDockStyle.Bottom;
+            this.bar1.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
+            new DevExpress.XtraBars.LinkPersistInfo(this.barStaticItem)});
+            this.bar1.OptionsBar.AllowQuickCustomization = false;
+            this.bar1.OptionsBar.DrawDragBorder = false;
+            this.bar1.OptionsBar.UseWholeRow = true;
+            this.bar1.Text = "Custom 3";
+            // 
+            // barStaticItem
+            // 
+            this.barStaticItem.Alignment = DevExpress.XtraBars.BarItemLinkAlignment.Right;
+            this.barStaticItem.Id = 17;
+            this.barStaticItem.Name = "barStaticItem";
+            this.barStaticItem.TextAlignment = System.Drawing.StringAlignment.Near;
             // 
             // frmMain
             // 
@@ -294,5 +320,7 @@
         private DevExpress.XtraBars.BarLargeButtonItem btbnDeleteCard;
         public DevExpress.XtraBars.BarManager barManagerMain;
         private DevExpress.XtraBars.BarLargeButtonItem bbtnDatabaseOptions;
+        public DevExpress.XtraBars.Bar bar1;
+        private DevExpress.XtraBars.BarStaticItem barStaticItem;
     }
 }
