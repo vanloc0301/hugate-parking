@@ -73,14 +73,14 @@ namespace Hugate.Parking
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(399, 307);
+            this.groupBox1.Size = new System.Drawing.Size(384, 307);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
             // cbbDatabaseServer
             // 
             this.cbbDatabaseServer.FormattingEnabled = true;
-            this.cbbDatabaseServer.Location = new System.Drawing.Point(36, 241);
+            this.cbbDatabaseServer.Location = new System.Drawing.Point(33, 241);
             this.cbbDatabaseServer.Name = "cbbDatabaseServer";
             this.cbbDatabaseServer.Size = new System.Drawing.Size(337, 21);
             this.cbbDatabaseServer.TabIndex = 7;
@@ -89,7 +89,7 @@ namespace Hugate.Parking
             // 
             // chkSQLAlowSavingPassword
             // 
-            this.chkSQLAlowSavingPassword.Location = new System.Drawing.Point(242, 188);
+            this.chkSQLAlowSavingPassword.Location = new System.Drawing.Point(239, 188);
             this.chkSQLAlowSavingPassword.Name = "chkSQLAlowSavingPassword";
             this.chkSQLAlowSavingPassword.Properties.Caption = "Alow saving password";
             this.chkSQLAlowSavingPassword.Size = new System.Drawing.Size(142, 19);
@@ -97,7 +97,7 @@ namespace Hugate.Parking
             // 
             // btnSQLTestConnection
             // 
-            this.btnSQLTestConnection.Location = new System.Drawing.Point(269, 269);
+            this.btnSQLTestConnection.Location = new System.Drawing.Point(266, 269);
             this.btnSQLTestConnection.Name = "btnSQLTestConnection";
             this.btnSQLTestConnection.Size = new System.Drawing.Size(104, 23);
             this.btnSQLTestConnection.TabIndex = 8;
@@ -106,7 +106,7 @@ namespace Hugate.Parking
             // 
             // chkSQLBlankPassword
             // 
-            this.chkSQLBlankPassword.Location = new System.Drawing.Point(108, 188);
+            this.chkSQLBlankPassword.Location = new System.Drawing.Point(105, 188);
             this.chkSQLBlankPassword.Name = "chkSQLBlankPassword";
             this.chkSQLBlankPassword.Properties.Caption = "Blank password";
             this.chkSQLBlankPassword.Size = new System.Drawing.Size(132, 19);
@@ -114,7 +114,7 @@ namespace Hugate.Parking
             // 
             // txtSQLPassword
             // 
-            this.txtSQLPassword.Location = new System.Drawing.Point(108, 164);
+            this.txtSQLPassword.Location = new System.Drawing.Point(105, 164);
             this.txtSQLPassword.Name = "txtSQLPassword";
             this.txtSQLPassword.Properties.PasswordChar = '*';
             this.txtSQLPassword.Size = new System.Drawing.Size(265, 20);
@@ -122,14 +122,14 @@ namespace Hugate.Parking
             // 
             // txtSQLUsername
             // 
-            this.txtSQLUsername.Location = new System.Drawing.Point(108, 134);
+            this.txtSQLUsername.Location = new System.Drawing.Point(105, 134);
             this.txtSQLUsername.Name = "txtSQLUsername";
             this.txtSQLUsername.Size = new System.Drawing.Size(265, 20);
             this.txtSQLUsername.TabIndex = 3;
             // 
             // lblPassSQL
             // 
-            this.lblPassSQL.Location = new System.Drawing.Point(36, 168);
+            this.lblPassSQL.Location = new System.Drawing.Point(33, 168);
             this.lblPassSQL.Name = "lblPassSQL";
             this.lblPassSQL.Size = new System.Drawing.Size(46, 13);
             this.lblPassSQL.TabIndex = 17;
@@ -137,7 +137,7 @@ namespace Hugate.Parking
             // 
             // lblUserSQL
             // 
-            this.lblUserSQL.Location = new System.Drawing.Point(36, 138);
+            this.lblUserSQL.Location = new System.Drawing.Point(33, 138);
             this.lblUserSQL.Name = "lblUserSQL";
             this.lblUserSQL.Size = new System.Drawing.Size(51, 13);
             this.lblUserSQL.TabIndex = 19;
@@ -146,7 +146,7 @@ namespace Hugate.Parking
             // radSpecific
             // 
             this.radSpecific.AutoSize = true;
-            this.radSpecific.Location = new System.Drawing.Point(36, 111);
+            this.radSpecific.Location = new System.Drawing.Point(33, 111);
             this.radSpecific.Name = "radSpecific";
             this.radSpecific.Size = new System.Drawing.Size(213, 17);
             this.radSpecific.TabIndex = 2;
@@ -158,9 +158,9 @@ namespace Hugate.Parking
             // 
             this.radWindow.AutoSize = true;
             this.radWindow.Checked = true;
-            this.radWindow.Location = new System.Drawing.Point(36, 88);
+            this.radWindow.Location = new System.Drawing.Point(33, 88);
             this.radWindow.Name = "radWindow";
-            this.radWindow.Size = new System.Drawing.Size(199, 17);
+            this.radWindow.Size = new System.Drawing.Size(201, 17);
             this.radWindow.TabIndex = 1;
             this.radWindow.TabStop = true;
             this.radWindow.Text = "Use Windows NT Integrated security";
@@ -169,7 +169,7 @@ namespace Hugate.Parking
             // 
             // cbbSQLServerName
             // 
-            this.cbbSQLServerName.Location = new System.Drawing.Point(36, 43);
+            this.cbbSQLServerName.Location = new System.Drawing.Point(33, 43);
             this.cbbSQLServerName.Name = "cbbSQLServerName";
             this.cbbSQLServerName.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -178,7 +178,7 @@ namespace Hugate.Parking
             // 
             // lblSerSQL
             // 
-            this.lblSerSQL.Location = new System.Drawing.Point(15, 24);
+            this.lblSerSQL.Location = new System.Drawing.Point(12, 24);
             this.lblSerSQL.Name = "lblSerSQL";
             this.lblSerSQL.Size = new System.Drawing.Size(156, 13);
             this.lblSerSQL.TabIndex = 9;
@@ -186,7 +186,7 @@ namespace Hugate.Parking
             // 
             // lblDatabaseSQL
             // 
-            this.lblDatabaseSQL.Location = new System.Drawing.Point(15, 222);
+            this.lblDatabaseSQL.Location = new System.Drawing.Point(12, 222);
             this.lblDatabaseSQL.Name = "lblDatabaseSQL";
             this.lblDatabaseSQL.Size = new System.Drawing.Size(177, 13);
             this.lblDatabaseSQL.TabIndex = 11;
@@ -194,7 +194,7 @@ namespace Hugate.Parking
             // 
             // labelControl6
             // 
-            this.labelControl6.Location = new System.Drawing.Point(15, 69);
+            this.labelControl6.Location = new System.Drawing.Point(12, 69);
             this.labelControl6.Name = "labelControl6";
             this.labelControl6.Size = new System.Drawing.Size(207, 13);
             this.labelControl6.TabIndex = 10;
@@ -204,7 +204,7 @@ namespace Hugate.Parking
             // 
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnCancel.Image = ((System.Drawing.Image)(resources.GetObject("btnCancel.Image")));
-            this.btnCancel.Location = new System.Drawing.Point(202, 313);
+            this.btnCancel.Location = new System.Drawing.Point(209, 327);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(70, 23);
             this.btnCancel.TabIndex = 2;
@@ -214,7 +214,7 @@ namespace Hugate.Parking
             // 
             this.btnOK.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.btnOK.Image = ((System.Drawing.Image)(resources.GetObject("btnOK.Image")));
-            this.btnOK.Location = new System.Drawing.Point(98, 313);
+            this.btnOK.Location = new System.Drawing.Point(105, 327);
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(70, 23);
             this.btnOK.TabIndex = 1;
@@ -225,11 +225,15 @@ namespace Hugate.Parking
             this.AcceptButton = this.btnOK;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.CancelButton = this.btnCancel;
-            this.ClientSize = new System.Drawing.Size(399, 348);
+            this.ClientSize = new System.Drawing.Size(384, 362);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.groupBox1);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(400, 400);
+            this.MinimumSize = new System.Drawing.Size(400, 400);
             this.Name = "frmDatabaseOption";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Database Option";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmDatabaseOption_FormClosing);

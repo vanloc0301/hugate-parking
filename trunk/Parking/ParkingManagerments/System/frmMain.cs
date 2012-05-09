@@ -21,6 +21,7 @@ namespace Hugate.Parking
         private void frmMain_Load(object sender, EventArgs e)
         {
             DevExpress.UserSkins.BonusSkins.Register();
+            barStaticItem.Caption = "User: " + clsDeclare.glbUserName + " | Server: " + clsDeclare.glbHost + " | Database: " + clsDeclare.glbDatabase;
         }
 
         private bool isActived(XtraForm frm)
