@@ -160,7 +160,7 @@ namespace Hugate.Parking
             this.radWindow.Checked = true;
             this.radWindow.Location = new System.Drawing.Point(33, 88);
             this.radWindow.Name = "radWindow";
-            this.radWindow.Size = new System.Drawing.Size(201, 17);
+            this.radWindow.Size = new System.Drawing.Size(199, 17);
             this.radWindow.TabIndex = 1;
             this.radWindow.TabStop = true;
             this.radWindow.Text = "Use Windows NT Integrated security";
