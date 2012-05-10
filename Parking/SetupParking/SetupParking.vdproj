@@ -129,6 +129,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_1F8C833FD8B44EFEAA17FC3E04975FB0"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_218A83D62D6E7407A6ED169B8D11B8D0"
         "OwnerKey" = "8:_AB1E3154BBC64E4CAFF29EE49E81B653"
         "MsmSig" = "8:_UNDEFINED"
@@ -363,6 +369,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_8C18A7052688422EA4D7D28AC04410C5"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_A282F4197506AFA899BBB60DC7B40716"
         "OwnerKey" = "8:_AB1E3154BBC64E4CAFF29EE49E81B653"
         "MsmSig" = "8:_UNDEFINED"
@@ -407,6 +419,12 @@
         {
         "MsmKey" = "8:_DAF543DBAB811FEE065E56AB515B3CEB"
         "OwnerKey" = "8:_AB1E3154BBC64E4CAFF29EE49E81B653"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E778D781C3294C61B0AC3237A8327131"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -922,6 +940,26 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1F8C833FD8B44EFEAA17FC3E04975FB0"
+            {
+            "SourcePath" = "8:..\\ParkingManagerments\\bin\\Debug\\In.ini"
+            "TargetName" = "8:In.ini"
+            "Tag" = "8:"
+            "Folder" = "8:_8863707A06AB4FBB99595304C7261C1D"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_218A83D62D6E7407A6ED169B8D11B8D0"
             {
             "AssemblyRegister" = "3:1"
@@ -1232,6 +1270,26 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8C18A7052688422EA4D7D28AC04410C5"
+            {
+            "SourcePath" = "8:..\\..\\parking.ico"
+            "TargetName" = "8:parking.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8863707A06AB4FBB99595304C7261C1D"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A282F4197506AFA899BBB60DC7B40716"
             {
             "AssemblyRegister" = "3:1"
@@ -1354,6 +1412,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E778D781C3294C61B0AC3237A8327131"
+            {
+            "SourcePath" = "8:..\\ParkingManagerments\\bin\\Debug\\Out.ini"
+            "TargetName" = "8:Out.ini"
+            "Tag" = "8:"
+            "Folder" = "8:_8863707A06AB4FBB99595304C7261C1D"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E794372472DE12A39B7CD3ADB1CE52FA"
@@ -1599,7 +1677,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:KizCiti Parking"
         "ProductCode" = "8:{3F5A4317-DF3C-4B4C-9B40-D77840F6201B}"
-        "PackageCode" = "8:{FC913CB8-AC91-4AD3-B1A4-9472A196517E}"
+        "PackageCode" = "8:{FE844D29-DD12-4055-8389-75737B985AC6}"
         "UpgradeCode" = "8:{70DEB63E-E884-49F3-93C1-91EFC4D0FF1D}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -1719,6 +1797,20 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_5888B84BEBC147F78C286FF71753E243"
+            {
+            "Name" = "8:Kizciti Parking"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_AB1E3154BBC64E4CAFF29EE49E81B653"
+            "Folder" = "8:_1BAC3DB58AF440F1AC8A616F3061DF52"
+            "WorkingFolder" = "8:_8863707A06AB4FBB99595304C7261C1D"
+            "Icon" = "8:_8C18A7052688422EA4D7D28AC04410C5"
+            "Feature" = "8:"
+            }
         }
         "UserInterface"
         {
