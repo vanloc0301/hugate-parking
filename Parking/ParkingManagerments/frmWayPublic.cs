@@ -108,8 +108,8 @@ namespace Hugate.Parking
         private void CaptureImage()
         {
             object info1, info2;
-            axVitaminCtrl1.GetSnapshot(VITAMINDECODERLib.EPictureFormat.ePicFmtJpeg, out imgIn, out info1);
-            axVitaminCtrl2.GetSnapshot(VITAMINDECODERLib.EPictureFormat.ePicFmtJpeg, out imgOut, out info2);
+            axVitaminCtrl2.GetSnapshot(VITAMINDECODERLib.EPictureFormat.ePicFmtJpeg, out imgIn, out info1);
+            //axVitaminCtrl1.GetSnapshot(VITAMINDECODERLib.EPictureFormat.ePicFmtJpeg, out imgOut, out info2);
         }
 
         private void Save()
